@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
 
 
 body
@@ -14,12 +15,12 @@ body
 
 .titulo_pagina h1{
   font-family: 'Cinzel Decorative', cursive;
-  font-size: 45px;
+  font-size: 80px;
   text-align: center;
-  margin: auto;
+  margin: 2px;
   text-shadow: 0 0 2px;
-  color: white;
-  text-shadow: 0 0 5px black;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 10px rgb(110, 52, 151);
 
 
 }
@@ -27,27 +28,22 @@ body
 .titulo_pagina h4{
   
     text-align: center;
-    color: rgb(245, 243, 247) ;
-    margin: auto;
-    font-size:45px;
-    padding: 20px;  
-    font-family: 'Italianno', cursive;
+    color: rgb(5, 0, 9) ;
+    margin: 80px;
+    font-size: 20px;  
+    font-family: 'Comfortaa', cursive;
     text-decoration-style: solid;
-    text-shadow: 0 0 3px black;
- 
-
+    
 
 }
 
 .titulo_pagina h6{
   
   text-align: center;
-  color: rgb(223, 192, 159) ;
-  margin: auto;
-  font-size:30px;
-  margin-top: auto;  
-  font-family: 'Italianno', cursive;
-  text-shadow: 0 0 3px rgb(5, 5, 5) 
+  color: rgb(252, 250, 250);
+  font-size: 10px;  
+  font-family: 'Comfortaa', cursive;
+  text-shadow: 0 0 3px rgb(5, 5, 5);
 
 
 }
@@ -192,12 +188,13 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
     width:400px;
   }
 
-  .footer{
+  .footer {
 
     text-align: center;
     margin-top: 50px;
-    
-
-
+    padding: 10px;
+    color: black;
+    font-family: 'Comfortaa', cursive;
   }
+  
 }
