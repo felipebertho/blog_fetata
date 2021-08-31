@@ -6,7 +6,4 @@ Com o intuito de guardar nossos momentos, comemorações, alegrias e evoluções
 
 
 
-
-
-
 Criado por Felipe Bertho | Com participação mais do que especial de Thais Khater.
