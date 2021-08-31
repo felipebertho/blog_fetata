@@ -4,19 +4,84 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width=1.0">
     <title>&#10084; Blog F&T</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
     <style>
-        img {
+        .img {
             max-width: 100%;
+            object-fit: cover;
         }
-        </style>
+
+        @media only screen and (min-width: 768px) {
+
+            /* For desktop: */
+            .col-1 {
+                width: 8.33%;
+            }
+
+            .col-2 {
+                width: 16.66%;
+            }
+
+            .col-3 {
+                width: 25%;
+            }
+
+            .col-4 {
+                width: 33.33%;
+            }
+
+            .col-5 {
+                width: 41.66%;
+            }
+
+            .col-6 {
+                width: 50%;
+            }
+
+            .col-7 {
+                width: 58.33%;
+            }
+
+            .col-8 {
+                width: 66.66%;
+            }
+
+            .col-9 {
+                width: 75%;
+            }
+
+            .col-10 {
+                width: 83.33%;
+            }
+
+            .col-11 {
+                width: 91.66%;
+            }
+
+            .col-12 {
+                width: 100%;
+            }
+        }
+
+        [class*="col-"] {
+            width: 100%;
+        }
+    </style>
+
+
 
 </head>
 
 <body>
+
+    <div class="row">
+        <div class="col-3 col-s-3">...</div>
+        <div class="col-6 col-s-9">...</div>
+        <div class="col-3 col-s-12">...</div>
+    </div>
 
     <section>
         <header class="titulo_pagina">
@@ -29,7 +94,7 @@
                 <br>
                 Colecionando nossos momentos...
                 <br>
-                
+
                 Nossa história. <span style='font-size:30px;'>&#10084;</span>
             </h4>
 
@@ -40,7 +105,7 @@
 
     <div class="wrap">
         <div class="tile">
-            <img src='img/e0e31d43-de06-476d-9dae-8c0a75b0212e.JPG' />
+            <img class="img" src='img/e0e31d43-de06-476d-9dae-8c0a75b0212e.JPG' />
             <div class="text">
                 <h1>Final de janeiro, e começo de um amor...</h1>
                 <h2 class="animate-text">01.2021</h2>
@@ -53,7 +118,7 @@
 
 
         <div class="tile">
-            <img src='img/E9F862D1-963F-45F0-A3FE-DECE6920F149.JPG' />
+            <img class="img" src='img/E9F862D1-963F-45F0-A3FE-DECE6920F149.JPG' />
             <div class="text">
                 <h1>Um mês cheio de finais de semana juntos</h1>
                 <h2 class="animate-text">02.2021</h2>
@@ -64,7 +129,7 @@
         </div>
 
         <div class="tile">
-            <img src='img/IMG_9125.JPG' />
+            <img class="img" src='img/IMG_9125.JPG' />
             <div class="text">
                 <h1>Lockdown total</h1>
                 <h2 class="animate-text">03.2021</h2>
@@ -79,7 +144,7 @@
 
     <div class="wrap">
         <div class="tile">
-            <img src='img/0ccca992-f81b-48d6-adbd-249e2d04fa75.JPG' />
+            <img class="img" src='img/0ccca992-f81b-48d6-adbd-249e2d04fa75.JPG' />
             <div class="text">
                 <h1>Pós Lockdown</h1>
                 <h2 class="animate-text">04.2021 </h2>
@@ -94,7 +159,7 @@
 
 
         <div class="tile">
-            <img src='img/46cbb4e2-ab22-4fcc-92b2-4608439e4b9b.JPG' />
+            <img class="img" src='img/46cbb4e2-ab22-4fcc-92b2-4608439e4b9b.JPG' />
             <div class="text">
                 <h1>E ai estão ficando ou namorando?</h1>
                 <h2 class="animate-text">05.2021</h2>
@@ -106,7 +171,7 @@
         </div>
 
         <div class="tile">
-            <img src='img/4185ca54-03f8-4a15-903e-f72b1c65e96e.JPG' />
+            <img class="img" src='img/4185ca54-03f8-4a15-903e-f72b1c65e96e.JPG' />
             <div class="text">
                 <h1>Amigos, Família e rolês</h1>
                 <h2 class="animate-text">06.2021</h2>
@@ -121,7 +186,7 @@
 
     <div class="wrap">
         <div class="tile">
-            <img src='img/4af669ee-abe4-44df-b4ac-74cd05a0627c.JPG' />
+            <img class="img" src='img/4af669ee-abe4-44df-b4ac-74cd05a0627c.JPG' />
             <div class="text">
                 <h1>Namorando?...Pedido fracassado.</h1>
                 <h2 class="animate-text">07.2021</h2>
@@ -135,7 +200,7 @@
 
 
         <div class="tile">
-            <img src='img/3cec88cf-ca98-40c3-9d30-abda9e46af5a.JPG' />
+            <img class="img" src='img/3cec88cf-ca98-40c3-9d30-abda9e46af5a.JPG' />
             <div class="text">
                 <h1>Enfim, Namorados.</h1>
                 <h2 class="animate-text">08.2021</h2>
@@ -149,7 +214,7 @@
         </div>
 
         <div class="tile">
-            <img src='img/IMG_6554.jpg' />
+            <img class="img" src='img/IMG_6554.jpg' />
             <div class="text">
                 <h1>1 Mês ou 8?</h1>
                 <h2 class="animate-text">09.21</h2>
