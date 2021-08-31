@@ -1,7 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
+
 body
 {
-  background-color:rgb(92, 92, 92)
+  background: rgb(63,108,251);
+  background: radial-gradient(circle, rgba(63,108,251,1) 10%, rgba(252,131,70,1) 90%);  
 }
+
+.titulo_pagina h1{
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 45px;
+  text-align: center;
+  margin: auto;
+  text-shadow: 0 0 2px;
+}
+
+.titulo_pagina h6{
+
+    text-shadow: 0 0 1px;
+    text-align: center;
+    margin: auto;
+    font-size:15px;
+    padding: 20px;
+
+
+}
+
 .wrap
 {
   margin:50px auto 0 auto;
@@ -15,7 +39,7 @@ body
   width:380px;
   height:380px;
   margin:10px;
-  background-color:#e94c4c;
+  background-color: rgb(116, 116, 116);
   display:inline-block;
   background-size:cover;
   position:relative;
