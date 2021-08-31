@@ -19,8 +19,8 @@ body
   text-align: center;
   margin: 2px;
   text-shadow: 0 0 2px;
-  color: rgb(255, 255, 255);
-  text-shadow: 0 0 10px rgb(110, 52, 151);
+  color:rgb(5, 5, 5);
+  text-shadow: 0 0 8px rgb(243, 243, 243);
 
 
 }
@@ -28,7 +28,7 @@ body
 .titulo_pagina h4{
   
     text-align: center;
-    color: rgb(5, 0, 9) ;
+    color: rgba(5, 0, 9, 0.501) ;
     margin: 80px;
     font-size: 20px;  
     font-family: 'Comfortaa', cursive;
@@ -43,7 +43,7 @@ body
   color: rgb(252, 250, 250);
   font-size: 15px;  
   font-family: 'Comfortaa', cursive;
-  text-shadow: 1px 1px 5px rgb(5, 5, 5);
+  text-shadow: 1px 1px 10px rgb(5, 5, 5);
 
 
 }
@@ -58,9 +58,9 @@ body
 }
 .tile
 {
-  width:380px;
-  height:380px;
-  margin:10px;
+  width:600px;
+  height:550px;
+  margin:15px;
   background-color: rgb(116, 116, 116);
   display:inline-block;
   background-size:cover;
@@ -113,6 +113,7 @@ body
   transform: translateX(-200px);
   transition-delay: 0.2s;
   font-size: 12px;
+  text-align: justify;
 }
 .animate-text
 {
