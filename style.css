@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=League+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=WindSong&display=swap');  
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 
 
 body
@@ -13,15 +18,36 @@ body
   text-align: center;
   margin: auto;
   text-shadow: 0 0 2px;
+  color: white;
+  text-shadow: 0 0 5px black;
+
+
+}
+
+.titulo_pagina h4{
+  
+    text-align: center;
+    color: rgb(245, 243, 247) ;
+    margin: auto;
+    font-size:45px;
+    padding: 20px;  
+    font-family: 'Italianno', cursive;
+    text-decoration-style: solid;
+    text-shadow: 0 0 3px black;
+ 
+
+
 }
 
 .titulo_pagina h6{
-
-    text-shadow: 0 0 1px;
-    text-align: center;
-    margin: auto;
-    font-size:15px;
-    padding: 20px;
+  
+  text-align: center;
+  color: rgb(223, 192, 159) ;
+  margin: auto;
+  font-size:30px;
+  margin-top: auto;  
+  font-family: 'Italianno', cursive;
+  text-shadow: 0 0 3px rgb(5, 5, 5) 
 
 
 }
@@ -48,7 +74,7 @@ body
   box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.44);
   overflow:hidden;
   color:white;
-  font-family:'Roboto';
+  font-family: 'Comfortaa', cursive;
   
 }
 .tile img
@@ -164,5 +190,14 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
   .wrap {
    flex-direction: column;
     width:400px;
+  }
+
+  .footer{
+
+    text-align: center;
+    margin-top: 50px;
+    
+
+
   }
 }
